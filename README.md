@@ -22,6 +22,7 @@ $update = new automatedMiniBlog;
 $update->getNews('https://www.newsbtc.com/feed/');
 ?>
 
+
 Methods
 getNews($rss, $limit=5)
 
