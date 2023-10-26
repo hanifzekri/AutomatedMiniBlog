@@ -2,7 +2,9 @@
 
 class auotmatedMiniBlog {
 	
-	//-------------
+	/*
+	using suggested curl options from rapidshare
+	*/
 	private function curl($host, $value, $method) {
 		
 		$context = array(
