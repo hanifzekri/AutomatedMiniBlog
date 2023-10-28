@@ -3,7 +3,7 @@
 class auotmatedMiniBlog {
 	
 	/*
-	using suggested curl options from rapidshare
+	using suggested curl options from rapidapi.com
 	*/
 	private function curl($host, $value, $method) {
 		
@@ -43,7 +43,9 @@ class auotmatedMiniBlog {
 		return $result;
 	}
 	
-	//------------
+	/*
+	you may need change this function based on rss url that you want to use
+ 	*/
 	public function getNews($rss, $limit=5) {
 		
 		$counter = 0;
