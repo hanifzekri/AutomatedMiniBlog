@@ -1,10 +1,12 @@
+#AutomatedMiniBlog 
+
 The automatedMiniBlog class is a PHP implementation designed for automated news processing and summarization. It allows you to fetch news articles from an RSS feed, summarize the titles and articles, and store the information in a database. This class utilizes cURL for HTTP requests and integrates with external APIs for text summarization.
 Requirements
 
     PHP 7.0 or higher
     cURL extension enabled
 
-**Usage**
+##Usage
 
     <?php
     
@@ -20,7 +22,7 @@ Requirements
     ?>
 
 
-**Methods**
+##Methods
 
     getNews($rss, $limit=5)
 
@@ -47,7 +49,7 @@ RapidAPI Service 2:
         Endpoint: /summarize
         Headers: X-RapidAPI-Host: article-extractor-and-summarizer.p.rapidapi.com, X-RapidAPI-Key: YOUR_API_KEY_IN_RAPIDAPI.COM
 
-**Important Notes**
+##Important Notes
 
 API Keys:
 Ensure that you have valid API keys for the external services used in this class. Replace YOUR_API_KEY_IN_RAPIDAPI.COM with your actual API keys in the code.
